@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1047988201161",
+    "firebase_url": "https://ridesharingv3-default-rtdb.firebaseio.com",
+    "project_id": "ridesharingv3",
+    "storage_bucket": "ridesharingv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047988201161:android:177a091298264ef5f6cf18",
+        "android_client_info": {
+          "package_name": "com.example.ride_sharing_app_commute_nepal_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047988201161-g81uvej3anbcsd7c2jh2b2irlblf4l4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ride_sharing_app_commute_nepal_v2",
+            "certificate_hash": "7e165d83151baf2f0d56e40fcb3495517567e33e"
+          }
+        },
+        {
+          "client_id": "1047988201161-djbjv5kheg1bkqd7j34hkcg2nqbn2stj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Nb0cghrz4IX2bm-N9XOrOirKqDIsc38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047988201161-djbjv5kheg1bkqd7j34hkcg2nqbn2stj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
