@@ -6,7 +6,6 @@ import 'package:flutter_countdown_timer/index.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/components/animation_dialog.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/components/custom_button.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/components/reusable_widgets.dart';
-import 'package:ride_sharing_app_commute_nepal_v2/screens/home/home_screen.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/utils/sharedPrefs/shared_prefs.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/utils/style.dart';
 
@@ -37,10 +36,8 @@ class _OtpScreenState extends State<OtpScreen> with TickerProviderStateMixin {
     _animationController = AnimationController(vsync: this)
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
-          Navigator.pushAndRemoveUntil(
-              context,
-              MaterialPageRoute(builder: (context) => const HomeScreen()),
-              (route) => false);
+          Navigator.pushNamedAndRemoveUntil(
+              context, '/role_selection', (route) => false);
         }
       });
 

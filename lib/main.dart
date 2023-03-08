@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/screens/home/home_screen.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/screens/login/mobile_screen.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/screens/login/otp_screen.dart';
+import 'package:ride_sharing_app_commute_nepal_v2/screens/roleSelection/role_selection.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/screens/splash/splash_screen.dart';
 import 'package:ride_sharing_app_commute_nepal_v2/utils/sharedPrefs/shared_prefs.dart';
 
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         '/mobile': (context) => const MobileScreen(),
         '/otp': (context) => OtpScreen(phoneNumber: phoneNumber),
         '/home': (context) => const HomeScreen(),
+        '/role_selection': (context) => const RoleSelection(),
       },
       initialRoute: '/',
     );

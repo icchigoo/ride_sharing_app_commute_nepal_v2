@@ -113,7 +113,7 @@
 //   _verifyPhone() async {
 //     await FirebaseAuth.instance
 //         .verifyPhoneNumber(
-//         phoneNumber: '+977${widget.phoneNumber}',
+//         phoneNumber: '+91${widget.phoneNumber}',
 //         verificationCompleted: (PhoneAuthCredential credential) async {
 //           await FirebaseAuth.instance
 //               .signInWithCredential(credential)
